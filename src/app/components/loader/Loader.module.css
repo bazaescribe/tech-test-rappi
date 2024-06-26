@@ -1,0 +1,44 @@
+.loaderWrapper {
+  background: rgba(255, 255, 255, 0.1);
+  height: 12px;
+  width: 120px;
+  display: flex;
+  gap: 12px;
+  overflow: hidden;
+  border-radius: 12px;
+  position: relative;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(108px);
+  }
+}
+
+.loaderBall {
+  height: 12px;
+  width: 12px;
+  background: rgba(255, 255, 255, 0.32);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.loaderBallA {
+  animation: move 1s ease infinite alternate;
+  left: 0;
+}
+
+.loaderBallB {
+  animation: move 1s ease infinite alternate;
+  animation-delay: 0.33s;
+  left: 0px;
+}
+
+.loaderBallC {
+  animation: move 1s ease infinite alternate;
+  animation-delay: 0.66s;
+  left: 0px;
+}

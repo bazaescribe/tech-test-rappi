@@ -1,0 +1,9 @@
+.users {
+  display: flex;
+  flex-wrap:  wrap;
+  gap: 1rem;
+}
+
+.TitleRow {
+  background: rgb(74, 255, 173);
+}

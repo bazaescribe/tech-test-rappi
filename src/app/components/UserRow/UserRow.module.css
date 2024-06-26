@@ -1,0 +1,7 @@
+.row {
+  cursor: pointer;
+}
+
+.row:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
